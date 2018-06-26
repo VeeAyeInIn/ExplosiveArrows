@@ -1,0 +1,31 @@
+# Thank you for using Explosive Arrows v1.0.0 by GrimlyTwisted!
+#
+#
+# Here is a list of permissions for the plugin. Please note that being an Operator will automatically allow the player
+# to inherit all of these permissions, so if they are opped you do not have to give them the permissions.
+#
+#
+# Command Permissions: (Note: A boolean is a true or false value)
+# grimlytwisted.explosivearrows.commands.explosions | /explosions <boolean> [world]
+# grimlytwisted.explosivearrows.commands.setpower   | /setpower <power> [world]
+# grimlytwisted.explosivearrows.commands.tdamage    | /tdamage <boolean> [world]
+#
+#
+# Other Permissions:
+# grimlytwisted.explosivearrows.arrows-can-explode  | Allows your arrows to explode if explosive arrows are enabled.
+#
+#
+# Check out a youtube video demonstration of the plugin: https://www.youtube.com/watch?v=YyHd9c-oM8o
+#
+#
+#
+#
+#
+
+
+config:
+
+  # Debug is still considered a work-in-progress feature. Recommended not to turn on as it may spam the console.
+  debug: false
+
+  worlds:

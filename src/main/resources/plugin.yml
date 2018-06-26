@@ -1,0 +1,22 @@
+name: ExplosiveArrows
+version: ${project.version}
+main: com.grimlytwisted.minecraft.explosivearrows.core.ExplosiveArrows
+prefix: Explosive Arrows
+authors: [GrimlyTwisted]
+load: STARTUP
+description: Adds customizable explosives to your arrows!
+
+commands:
+
+  setpower:
+    usage: "/setpower <power> [world]"
+    description: "Sets the explosive power of arrows in a world."
+
+  explosions:
+    usage: "/explosions <boolean> [world]"
+    description: "Turn on/off the ability for arrows to explode."
+
+  tdamage:
+    usage: "/tdamage <boolean> [world]"
+    description: "Turn on/off the ability for arrows to destroy tiles."
+
